@@ -28,10 +28,6 @@
       "lint": "./vendor/bin/phpcs --standard=./phpcs.xml",
       "lint-fix": "./vendor/bin/phpcbf --standard=./phpcs.xml"
     },
-    "require-dev": {
-      "wpackagist-plugin/the-events-calendar": "^6.0",
-      "wpackagist-plugin/wordpress-seo": "^26.0"
-    },
     "extra": {
       "installer-paths": {
         "plugins/{$name}/": [
