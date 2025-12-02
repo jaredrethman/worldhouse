@@ -1,0 +1,33 @@
+{
+  "name": "worldhouse",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.6.1",
+    "@types/node": "^22.5.0",
+    "@types/react": "^18.3.0",
+    "@types/react-dom": "^18.3.0",
+    "@types/wordpress__block-editor": "^14.21.2",
+    "@types/wordpress__blocks": "^12.5.18",
+    "@types/wordpress__element": "^2.4.1",
+    "@wordpress/block-editor": "^15.8.0",
+    "@wordpress/blocks": "^15.7.0",
+    "@wordpress/element": "^6.34.0",
+    "@wordpress/scripts": "^30.27.0",
+    "css-loader": "^7.1.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-refresh": "^0.18.0",
+    "style-loader": "^4.0.0",
+    "typescript": "^5.9.3",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "scripts": {
+    "dev": "node --env-file=.local.env ./node_modules/.bin/webpack serve --mode=development --config webpack/dev.js",
+    "dev:s": "node --env-file=.local.env ./node_modules/.bin/webpack serve --mode=development --config webpack/dev.js",
+    "build": "wp-scripts build --source-path='src/blocks' --config webpack/prod.js"
+  }
+}

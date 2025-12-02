@@ -1,0 +1,19 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "worldhouse/static",
+  "title": "SD Static Block",
+  "category": "text",
+  "icon": "star-filled",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "SD Static Block"
+    }
+  },
+  "editorScript": "file:./editor-script.tsx",
+  "editorStyle": "file:./editor-style.css",
+  "style": "file:./style.css",
+  "supports": { "html": false, "inserter": true },
+  "keywords": ["sd", "worldhouse","static", "block"]
+}
