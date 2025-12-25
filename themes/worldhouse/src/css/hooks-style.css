@@ -1,0 +1,17 @@
+/* Menu Icon styles */
+.nav-icon--svg {
+	width: 1.1em;
+	height: 1.1em;
+	border: green !important;
+	display: block;
+
+	& > svg {
+		width: 100%;
+		height: auto;
+	}
+}
+
+.worldhouse-nav__has-icon {
+  display: flex;
+  gap: 0.5em;
+}

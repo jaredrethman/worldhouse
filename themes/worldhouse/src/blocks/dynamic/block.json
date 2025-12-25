@@ -1,0 +1,23 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "worldhouse/dynamic",
+  "title": "SD Dynamic Block",
+  "category": "text",
+  "icon": "star-filled",
+  "attributes": {
+    "title": {
+      "type": "string",
+      "default": "SD Dynamic Block"
+    }
+  },
+  "script": "file:./global-script.ts",
+  "style": "file:./global-style.css",
+  "editorScript": "file:./editor-script.tsx",
+  "editorStyle": "file:./editor-style.css",
+  "viewScript": "file:./view-script.ts",
+  "viewStyle": "file:./view-style.css",
+  "render": "file:./render.php",
+  "supports": { "html": false, "inserter": true },
+  "keywords": ["wh", "worldhouse","dynamic", "block"]
+}
