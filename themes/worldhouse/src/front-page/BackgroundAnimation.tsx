@@ -201,6 +201,7 @@ export function BackgroundAnimation(props: Options) {
       }
     };
 
+    
     const drawGridLinesToCache = () => {
       gridCtx.clearRect(0, 0, gridCanvas.width, gridCanvas.height);
       gridCtx.globalCompositeOperation = "source-over";
